@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    </head>
+    
+    <body>
+        <div class="searchPage">
+            <img class="home_button" src="img/home.png" width="40" height="40" alt="">
+            <div class = "searchBox">
+                <h1>Поиск записи</h1>
+                <div class="search">
+                    <label for="searchTypeSelector">Поиск</label>
+                    <select name = "searchTypeSelector" class="searchTypeSelector">
+                        <option value="по метке">по метке</option>
+                        <option value="по слову в заголовке">по слову в заголовке</option>
+                        <option value="по слову в тексте">по слову в тексте</option>
+                    </select>
+                    <input type="text" class = "search_request" name = "search_request">
+                    <img class="search_button" src="img/glass.png" width="30" height="30" alt="">
+                </div>
+                <div class="table">
+                    <table>
+                        <th>Заголовок записи</th>
+                        <th>Запись</th>
+                        <th>Файлы</th>
+                        <th>Метки</th>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src = "js/searchPage.js"></script>
+</html>
